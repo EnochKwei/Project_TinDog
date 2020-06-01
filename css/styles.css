@@ -28,6 +28,21 @@ p {
   padding: 7% 15%;
 }
 
+
+
+/*Sections*/
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+
 /* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -44,7 +59,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Montserrat-Light", Arial, Sans-Serif;
 }
 
@@ -63,16 +78,13 @@ p {
   color: #ff4c68;
 }
 
+
 /*Titile Section*/
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+#title .container-fluid {
+  padding: 3% 15% 7%;
   text-align: left;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
 
 /* Title image */
 .title-image {
@@ -83,9 +95,9 @@ p {
   right: 30%;
 }
 
+
 /* Features */
 #features {
-  background-color: #fff;
   position: relative;
   /*The element is positioned according to the normal flow of the document*/
 }
@@ -98,10 +110,11 @@ p {
   padding: 5%;
 }
 
+
+
 /* Testimonials Section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -115,6 +128,8 @@ p {
   margin: 20px;
 }
 
+
+
 /* Press Section */
 #press {
   background-color: #ef8172;
@@ -125,6 +140,8 @@ p {
   width: 15%;
   margin: 20px 50px 50px;
 }
+
+
 
 /* Pricing Section */
 #pricing {
@@ -141,10 +158,6 @@ p {
 }
 
 /* Call to Action Section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 /*Footer Section*/
 #footer {
@@ -154,6 +167,8 @@ p {
 .social-icon {
   margin: 20px 10px;
 }
+
+
 
 /*Media Query*/
 @media (max-width: 1028px) {
